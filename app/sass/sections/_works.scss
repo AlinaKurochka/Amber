@@ -1,0 +1,42 @@
+.works{
+	position: relative;
+	padding-top: $section-padding;
+	padding-bottom: $section-padding;
+	background-color: #000;
+	&-carousel{
+		position: relative;
+	}
+	&-inner{
+		padding-top: 50px;
+		&-image{
+			position: relative;
+			img{
+				width: 100%;
+				height: 290px;
+				object-fit: cover;
+			}
+		}
+		&-title{
+			    display: flex;
+			    flex-flow: row wrap;
+			    align-items: center;
+			    justify-content: space-between;
+			p,i{
+				position: absolute;
+				bottom: 0;
+				color: #fff;
+				padding-bottom: 30px;
+				padding-left: 30px;
+			}
+		}
+		&-text{
+			p{
+				position: absolute;
+				bottom: 0;
+				color: #fff;
+				padding-bottom: 15px;
+				padding-left: 30px;
+			}
+		}
+	}
+}

@@ -281,6 +281,16 @@ img {
   color: #02baab;
 }
 
+.button-arrow {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.button-arrow:hover {
+  background-color: #fff;
+  color: #02baab;
+}
+
 .logo {
   padding-top: 15px;
 }
@@ -314,8 +324,11 @@ img {
   color: #3b4954;
 }
 
-.text-gray {
-  color: #3b4954;
+.title-white {
+  color: #fff;
+}
+
+.text {
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
@@ -324,13 +337,84 @@ img {
   margin: 0 auto;
 }
 
+.text-gray {
+  color: #3b4954;
+}
+
+.text-white {
+  color: #fff;
+}
+
 .advertising {
   padding-top: 100px;
   padding-bottom: 100px;
+  position: relative;
 }
 
-.latest-works {
+.works {
+  position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #000;
+}
+
+.works-carousel {
+  position: relative;
+}
+
+.works-inner {
+  padding-top: 50px;
+}
+
+.works-inner-image {
+  position: relative;
+}
+
+.works-inner-image img {
+  width: 100%;
+  height: 290px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.works-inner-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.works-inner-title p, .works-inner-title i {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.works-inner-text p {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  padding-bottom: 15px;
+  padding-left: 30px;
+}
+
+.amber {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #02baab;
 }
