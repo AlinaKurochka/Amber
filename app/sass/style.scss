@@ -8,17 +8,17 @@
 
 @import 'layouts/navbar';
 // @import 'layouts/footer';
-// @import 'layouts/header';
+@import 'layouts/header';
 
 @import 'components/aform';
 @import 'components/button';
 @import 'components/fa';
-// @import 'components/';
-// @import 'components/';
-// @import 'components/';
+@import 'components/logo';
+@import 'components/title';
+@import 'components/text';
 
-// @import 'sections/';
-// @import 'sections/';
+@import 'sections/advertising';
+@import 'sections/latest-works';
 // @import 'sections/';
 // @import 'sections/';
 // @import 'sections/';
