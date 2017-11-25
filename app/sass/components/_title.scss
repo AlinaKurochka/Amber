@@ -1,7 +1,7 @@
 .title{
 	position: relative;
 	font-size: 36px;
-	font-weight: 300;
+	font-weight: $font-weight-slim;
 	line-height: 20px;
 	&:after{
     content: "";
@@ -22,7 +22,6 @@
 	&-works{
 		color: #ffffff;
 		font-size: 14px;
-		font-weight: 300;
 		line-height: 1.7;
 	}
 }

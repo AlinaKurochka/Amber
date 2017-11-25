@@ -3,7 +3,7 @@
 @import 'base/reset';
 
 @import 'base/base';
-@import 'base/fonts';
+// @import 'base/fonts';
 // @import 'grid/grid';
 
 @import 'layouts/navbar';
@@ -16,6 +16,7 @@
 @import 'components/logo';
 @import 'components/title';
 @import 'components/text';
+@import 'components/carousel';
 
 @import 'sections/advertising';
 @import 'sections/works';

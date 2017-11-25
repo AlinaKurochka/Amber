@@ -1,6 +1,6 @@
 .text{
 	font-size: 18px;
-	font-weight: 300;
+	font-weight: $font-weight-slim;
 	line-height: 30px;
 	padding-top: 90px;
 	width: 740px;
@@ -14,15 +14,16 @@
 	&-works{
 		color: #02baab;
 		font-size: 11px;
-		font-weight: 300;
 		line-height: 1.8;
 	}
 	&-amber{
 		p{
 			color: #ffffff;
 			font-size: 24px;
-			font-weight: 300;
 			line-height: 1.5;
 		}		
+	}
+	&-center{
+		margin-top: 30px;
 	}
 }
