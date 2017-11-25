@@ -2,6 +2,9 @@
 	display: inline-block;
     outline: none;
     cursor: pointer;
+    font-weight: 700;
+    padding: 15px 20px;
+    border-radius: 0;
     &-search{
         right: 0;
         top: 0;
@@ -24,10 +27,7 @@
     &-primary{
         border: 3px solid $color-primary;
         color: $color-primary;
-        padding: 15px 20px;
-        border-radius: 0;
-        font-weight: 700;
-        margin-left: 15px;
+        // border-radius: 0;
         &:hover{
             background-color: $color-primary;
             color: #fff;
@@ -36,11 +36,8 @@
     &-secondary{
         border: 2px solid $color-primary;
         background-color: $color-primary;
-        padding: 15px 20px;
         color: #fff;
-        font-weight: 700;
-        border-radius: 0;
-        margin-right: 15px;
+        // border-radius: 0;
         &:hover{
             background-color: #FFF;
             color: $color-primary;
@@ -55,3 +52,4 @@
         }
     }
 }
+

@@ -226,6 +226,10 @@ img {
   display: inline-block;
   outline: none;
   cursor: pointer;
+  font-weight: 700;
+  padding: 15px 20px;
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
 
 .button-search {
@@ -253,11 +257,6 @@ img {
 .button-primary {
   border: 3px solid #02baab;
   color: #02baab;
-  padding: 15px 20px;
-  -webkit-border-radius: 0;
-  border-radius: 0;
-  font-weight: 700;
-  margin-left: 15px;
 }
 
 .button-primary:hover {
@@ -268,12 +267,7 @@ img {
 .button-secondary {
   border: 2px solid #02baab;
   background-color: #02baab;
-  padding: 15px 20px;
   color: #fff;
-  font-weight: 700;
-  -webkit-border-radius: 0;
-  border-radius: 0;
-  margin-right: 15px;
 }
 
 .button-secondary:hover {
@@ -328,6 +322,13 @@ img {
   color: #fff;
 }
 
+.title-works {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
 .text {
   font-size: 18px;
   font-weight: 300;
@@ -345,6 +346,20 @@ img {
   color: #fff;
 }
 
+.text-works {
+  color: #02baab;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+.text-amber p {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
 .advertising {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -353,20 +368,28 @@ img {
 
 .works {
   position: relative;
+  background-color: #666;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #000;
+  background: url(../img/photo-slider-1.jpg) 0 0 no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: 1;
 }
 
-.works-carousel {
-  position: relative;
+.works:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.3;
+  background-color: #000;
+  top: 0;
+  left: 0;
 }
 
 .works-inner {
   padding-top: 50px;
-}
-
-.works-inner-image {
   position: relative;
 }
 
@@ -377,7 +400,7 @@ img {
   object-fit: cover;
 }
 
-.works-inner-title {
+.works-inner-content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -395,22 +418,16 @@ img {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
 }
 
-.works-inner-title p, .works-inner-title i {
-  position: absolute;
-  bottom: 0;
-  color: #fff;
-  padding-bottom: 30px;
-  padding-left: 30px;
-}
-
-.works-inner-text p {
-  position: absolute;
-  bottom: 0;
-  color: #fff;
-  padding-bottom: 15px;
-  padding-left: 30px;
+.works-inner-text {
+  text-align: right;
 }
 
 .amber {
