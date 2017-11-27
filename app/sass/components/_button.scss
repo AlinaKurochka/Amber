@@ -46,6 +46,10 @@
     &-arrow{
         color: #fff;
         border: 2px solid #fff;
+        i{
+            padding-left:10px;
+            font-size: 22px;
+        }
         &:hover{
             background-color: #fff;
             color: $color-primary;
