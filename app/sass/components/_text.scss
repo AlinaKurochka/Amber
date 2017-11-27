@@ -27,4 +27,12 @@
 	&-center{
 		margin-top: 30px;
 	}
+	&-inner{
+		&-gray{
+			color: #3b4954;
+			font-size: 14px;
+			font-weight: 300;
+			line-height: 24px;
+		}
+	}
 }
