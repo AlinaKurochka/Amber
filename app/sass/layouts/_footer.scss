@@ -1,0 +1,37 @@
+.footer{
+	background-color: #1d2a33;
+	padding-top: $section-padding;
+	padding-bottom: $section-padding;
+	&-map{
+		padding-top: 30px;
+	}
+	&-inner{
+		&-title{
+			color: #ffffff;
+			font-size: 22px;
+			font-weight: 300;
+			line-height: 35px;
+			padding-bottom: 40px;
+		}
+		&-list{
+		list-style: none;
+		&-text{
+			font-size: 12px;
+			font-weight: 300;
+			line-height: 24px;
+			color: #8293a0;
+			&-fa{
+				color: $color-primary;
+				padding-right: 7px;
+			}
+			&-twitter{
+				color: #fff;
+			}
+			&-span{
+				color: #fff;
+				padding-right: 5px;
+			}
+		}
+	}
+}
+}

@@ -4,6 +4,8 @@
 		padding-bottom: $section-padding;
 	}
 	&-item{
+		border-bottom: 1px solid  #c3c3c3;
+		padding-bottom: 30px;
 		&-header{
 			margin-bottom: 25px;
 			overflow: hidden;
