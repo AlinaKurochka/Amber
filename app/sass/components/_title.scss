@@ -1,16 +1,17 @@
 .title{
 	position: relative;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
 	font-size: 36px;
 	font-weight: $font-weight-slim;
-	line-height: 20px;
 	&:after{
     content: "";
     width: 50px;
     height: 5px;
-	background-color: #eee;
+		background-color: #eee;
     position: absolute;
     left: 50%;
-    bottom: -45px;
+    bottom: 0;
     margin-left: -25px;
 	}
 	&-gray{

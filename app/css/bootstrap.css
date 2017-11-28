@@ -806,17 +806,11 @@ pre code {
 
 @media (min-width: 992px) {
   .container {
-    width: 960px;
+    width: 940px;
     max-width: 100%;
   }
 }
 
-@media (min-width: 1200px) {
-  .container {
-    width: 1140px;
-    max-width: 100%;
-  }
-}
 
 .container-fluid {
   position: relative;

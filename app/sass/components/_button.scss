@@ -3,7 +3,10 @@
     outline: none;
     cursor: pointer;
     font-weight: 700;
-    padding: 15px 20px;
+    font-size: 12px;
+    padding: 12px 45px;
+    letter-spacing: 2.5px;
+    font-weight: bold;
     border-radius: 0;
     &-search{
         right: 0;
@@ -56,4 +59,3 @@
         }
     }
 }
-
