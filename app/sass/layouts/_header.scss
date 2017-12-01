@@ -9,12 +9,18 @@
 		}
 	}
 	&-inner{
-		position: absolute;
-	    z-index: 1;
-	    left: 50%;
-	    top: 50%;
-	    transform: translate(-50%,-50%);
-	    text-align: center;
+	    &-absolute{
+	    	position: absolute;
+		    z-index: 1;
+		    left: 50%;
+		    top: 50%;
+		    transform: translate(-50%,-50%);
+		    text-align: center;
+	    }
+	    &-static{
+	    	padding-top: 220px;
+	    	padding-bottom: 50px;
+	    }
 	    &-button{
 	    	margin-top: 100px;
 	    }
@@ -27,6 +33,19 @@
 	}
 	&-text{
 		color: #fff;
+	}
+	&-background{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		z-index: -1;
+		img{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
 	}
 }
 .height-vh{

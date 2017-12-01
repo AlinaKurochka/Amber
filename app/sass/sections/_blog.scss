@@ -39,6 +39,11 @@
 			display: flex;
 			flex-flow: row wrap;
 			justify-content: space-between;
+			&-part{
+				a{
+					text-decoration: none;
+				}
+			}
 			&-link{
 				display: inline-block;
 				text-decoration: none;

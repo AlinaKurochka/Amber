@@ -2,6 +2,11 @@
 	background-color: #000;
 	padding-top: 10px;
 	padding-bottom: 15px;
+	&-fixed{
+		position: fixed;
+		z-index: 9999;
+		width: 100%;
+	}
 	&-right{
 		&-list{
 			color: #fff;
