@@ -2,36 +2,93 @@
 	background-color: #1d2a33;
 	padding-top: $section-padding;
 	padding-bottom: $section-padding;
+	color: #fff;
 	&-map{
 		padding-top: 30px;
 	}
 	&-inner{
 		&-title{
-			color: #ffffff;
+			color: inherit;
 			font-size: 22px;
 			font-weight: 300;
 			line-height: 35px;
 			padding-bottom: 40px;
 		}
 		&-list{
-		list-style: none;
-		&-text{
-			font-size: 12px;
-			font-weight: 300;
-			line-height: 24px;
-			color: #8293a0;
-			&-fa{
-				color: $color-primary;
-				padding-right: 7px;
-			}
+			list-style: none;
 			&-twitter{
-				color: #fff;
+				padding-bottom: 35px;
+				a{
+					text-decoration: none;
+					color: $color-primary;
+				}
 			}
-			&-span{
-				color: #fff;
-				padding-right: 5px;
+			&-sites{
+				padding-bottom: 20px;
+				a{
+					display: flex;
+					align-items: center;
+					text-decoration: none;
+					color: inherit;
+				}
+				i{
+					width: 50px;
+					height: 50px;
+					background-color: #fff;
+					color: inherit;
+					font-size: 30px;
+					text-align: center;
+					line-height: 50px;
+					vertical-align: middle;
+					margin-right: 20px;
+					&.fa-facebook{
+						background-color: #3b5998;
+					}
+					&.fa-twitter{
+						background-color: #00a0d1;
+					}
+					&.fa-youtube{
+						background-color: #c4302b;
+					}
+					&.fa-instagram{
+						background-color: #825c48;
+					}
+					&.fa-pinterest{
+						background-color: #a30834;
+					}
+				}
+			}
+			&-post{
+				line-height: 24px;
+				margin-bottom: 35px;
+				a{
+					display: block;
+					text-decoration: none;
+				}
+				&-time{
+					color: #fff;
+				}
+				&-content{
+					color: #02baab;
+				}
+			}
+			&-text{
+				font-size: 12px;
+				font-weight: 300;
+				line-height: 24px;
+				color: #8293a0;
+				&-fa{
+					color: $color-primary;
+					padding-right: 7px;
+				}
+				&-twitter{
+					color: #fff;
+				}
+				&-span{
+					color: #fff;
+					padding-right: 5px;
+				}
 			}
 		}
 	}
-}
 }
