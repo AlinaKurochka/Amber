@@ -2,10 +2,16 @@
 	&-section{
 		padding-top: $section-padding;
 		padding-bottom: $section-padding;
+		&-static{
+			padding-top: 0;
+		}
 	}
 	&-item{
 		border-bottom: 1px solid  #c3c3c3;
 		padding-bottom: 30px;
+		&-static{
+			margin-top: 50px;
+		}
 		&-header{
 			margin-bottom: 25px;
 			overflow: hidden;
